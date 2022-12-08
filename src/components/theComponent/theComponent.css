@@ -1,3 +1,12 @@
+.theComponentWrapper{
+    display: flex;
+    max-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+}
+
 .btnSubmit{
     min-width: 10rem;
     min-height: 5rem;
@@ -5,8 +14,6 @@
     background-color: teal;
     color: white;
     border: none;
-    margin-left: 50%;
-    margin-top: 50vh;
     cursor: pointer;
     font-size: 40px;
     border-radius: 8px;
@@ -19,8 +26,6 @@
     background-color: teal;
     color: white;
     border: none;
-    margin-left: 50%;
-    margin-top: 50vh;
     cursor: pointer;
     font-size: 40px;
     border-radius: 8px;
