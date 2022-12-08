@@ -1,0 +1,27 @@
+.btnSubmit{
+    min-width: 10rem;
+    min-height: 5rem;
+    padding: 14px;
+    background-color: teal;
+    color: white;
+    border: none;
+    margin-left: 50%;
+    margin-top: 50vh;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+.btnLoading{
+    min-width: 10rem;
+    max-height: 5rem;
+    padding: 14px;
+    background-color: teal;
+    color: white;
+    border: none;
+    margin-left: 50%;
+    margin-top: 50vh;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 8px;
+}
