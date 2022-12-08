@@ -16,9 +16,9 @@ const TheComponent = () => {
     }
 
   return (
-    <div>
+    <div className="theComponentWrapper">
         { isLoading ?
-        <button className="btnLoading"><SpinnerRound /></button>
+        <button className="btnLoading"><SpinnerRound thickness="500"/></button>
         :
         <button className="btnSubmit" onClick={handleClick}>Click</button>
         }
